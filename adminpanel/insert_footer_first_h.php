@@ -41,7 +41,7 @@ if (isset($_POST['footfirst_save'])){
 
     if ($DB ->query("INSERT INTO footer_first_h(id, title) VALUES (?,?)", array(null, $title)))
     {
-        echo "Succes information!!";
+       echo "Succes information!!";
 
         echo '<script>window.location.href = "footer_first_h.php"</script>';
         //header("location:footer_firsttitle.php");

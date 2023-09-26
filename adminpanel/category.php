@@ -131,7 +131,7 @@ require ('../development_mode_control.php');
                                     <td><?php echo $row['catname']?></td>
                                     <td>
                                         <a href="edit_category.php?id=<?php echo $row['id']?>"><button type="button" class="btn btn-outline-primary">Редактировать</button></a>
-                                        <a href="delete.php?id=<?php echo $row['id']?>&dbname=categories&url=category.php&row=id"><<button type="button" class="btn btn-outline-danger">Удалить</button></a>
+                                        <a href="delete.php?id= "><<button type="button" class="btn btn-outline-danger">Удалить</button></a>
                                     </td>
                                 </tr>
                             <?php endforeach;?>

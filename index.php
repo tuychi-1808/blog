@@ -14,7 +14,7 @@ require ('development_mode_control.php') ;
 	<!----webfonts
 		<link href='http://fonts.googleapis.com/css?family=Oswald:100,400,300,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,300italic,400italic,600italic' rel='stylesheet' type='text/css'>
-		<!----//webfonts---->
+		//webfonts-->
 	<script src="js/jquery.js"></script>		<!--end slider -->
 		<!--script-->
 <script type="text/javascript" src="js/move-top.js"></script>

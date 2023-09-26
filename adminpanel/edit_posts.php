@@ -136,7 +136,7 @@ if (isset($_POST['save_post']))
                 <div class="form-row">
                     <div class="col-md-6 mb-3">
                         <label for="validationDefault03">Фото</label>
-                        <input type="file" name="image"  accept="image/*" class="form-control" id="validationDefault03" >
+                        <input type="file" name="image"class="form-control" id="validationDefault03" >
                         <img class="m-3" src="<?php echo $row["location"];?>" width="100px" height="100px" alt="">
                     </div>
                     <div class="col-md-3 mb-3">
